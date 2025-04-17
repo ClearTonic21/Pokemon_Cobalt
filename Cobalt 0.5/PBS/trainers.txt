@@ -1,0 +1,257 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[CAMPER,Liam]
+LoseText = A very good battle, indeed!
+Pokemon = DIGLETT,10
+Pokemon = BONSLY,11
+#-------------------------------
+[LEADER_Brock,Brock]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Very good.
+Pokemon = GEODUDE,12
+    Moves = DEFENSECURL,HEADSMASH,ROCKPOLISH,ROCKTHROW
+    AbilityIndex = 0
+    Gender = male
+    IV = 20,20,20,20,20,20
+Pokemon = ONIX,14
+    Name = Rocky
+    Moves = HEADSMASH,ROCKTHROW,RAGE,ROCKTOMB
+    AbilityIndex = 0
+    Item = SITRUSBERRY
+    Gender = male
+    IV = 20,20,20,20,20,20
+    Shiny = true
+    Ball = HEAVYBALL
+#-------------------------------
+[TEAMROCKET_M,Grunt,1]
+LoseText = You're too good for me!
+Pokemon = WEEPINBELL,21
+    Shadow = true
+#-------------------------------
+[TEAMROCKET_F,Grunt,1]
+LoseText = You're too good for me!
+Pokemon = BURMY,19
+Pokemon = WINGULL,19
+Pokemon = ELECTABUZZ,20
+    Shadow = true
+#-------------------------------
+[YOUNGSTER,Ben]
+LoseText = Aww, I lost.
+Pokemon = RATTATA,11
+Pokemon = EKANS,11
+#-------------------------------
+[CAMPER,Jeff]
+LoseText = A very good battle, indeed!
+Pokemon = SPEAROW,16
+Pokemon = SENTRET,16
+#-------------------------------
+[CAMPER,Jeff,1]
+LoseText = You beat me again!
+Pokemon = FEAROW,29
+Pokemon = FURRET,29
+#-------------------------------
+[PICNICKER,Susie]
+LoseText = Defeated! Oh my!
+Pokemon = MEOWTH,18
+#-------------------------------
+[PICNICKER,Susie,1]
+LoseText = Defeated! Oh my!
+Pokemon = PERSIAN,32
+#-------------------------------
+[HIKER,Ford]
+LoseText = You're too good for me!
+Pokemon = MACHOP,19
+#-------------------------------
+[FISHERMAN,Andrew]
+LoseText = Washed out!
+Pokemon = MAGIKARP,14
+Pokemon = MAGIKARP,18
+#-------------------------------
+[BEAUTY,Bridget]
+LoseText = My Skitty!
+Pokemon = SKITTY,18
+#-------------------------------
+[LASS,Crissy]
+LoseText = You didn't have to win so convincingly!
+Pokemon = PLUSLE,17
+Pokemon = MINUN,17
+#-------------------------------
+[COOLCOUPLE,Alice & Bob]
+LoseText = Our teamwork failed!
+Pokemon = TURTWIG,19
+Pokemon = CHIMCHAR,19
+#-------------------------------
+[POKEMONTRAINER_May,May]
+LoseText = ...
+Pokemon = COMBUSKEN,19
+#-------------------------------
+[SWIMMER2_F,Ariel]
+LoseText = Washed out!
+Pokemon = STARYU,15
+Pokemon = GOLDEEN,11
+#-------------------------------
+[RIVAL,Blue]
+LoseText = Not too shabby.
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = BULBASAUR,18
+#-------------------------------
+[RIVAL,Blue,1]
+LoseText = Not too shabby.
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = CHARMANDER,18
+#-------------------------------
+[RIVAL,Blue,2]
+LoseText = Not too shabby.
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = SQUIRTLE,18
+#-------------------------------
+[CHAMPION,Blue]
+LoseText = A good battle indeed!
+Pokemon = VENUSAUR,63
+    Item = SITRUSBERRY
+Pokemon = CHARIZARD,63
+    Item = SITRUSBERRY
+Pokemon = BLASTOISE,63
+    Item = SITRUSBERRY
+#-------------------------------#-------------------------------#-------------------------------
+#-------------------------------#-------------------------------#-------------------------------
+[RIVAL1,Leo]
+LoseText = That wasn't bad. Beginner's luck.
+Pokemon = GROWLITHE,5
+    AbilityIndex = 1
+    Gender = male
+    Moves = LEER,TACKLE,EMBER
+#-------------------------------
+[RIVAL2,Emry]
+LoseText = Oh you and your Pokemon get along great!
+Pokemon = EEVEE,7
+    Gender = female
+    Moves = QUICKATTACK,STOREDPOWER,GROWL
+    AbilityIndex = 2
+    Item = ORANBERRY
+    IV = 20,20,20,20,20,20
+Pokemon = EEVEE,7
+    Gender = male
+    Shiny = yes
+    Moves = QUICKATTACK,BITE,GROWL
+    AbilityIndex = 2
+    Item = ORANBERRY
+    IV = 20,20,20,20,20,20
+Pokemon = RIOLU,7
+    Gender = male
+    Moves = BULLETPUNCH,QUICKATTACK,ENDURE
+    AbilityIndex = 2
+    Item = ORANBERRY
+    IV = 20,20,20,20,20,20
+#-------------------------------
+[YOUNGSTER,Luke]
+LoseText = Oh man!
+Pokemon = POLIWAG,5
+Pokemon = CHEWTLE,6
+#-------------------------------
+[FARMGIRL,Mia]
+LoseText = Youch!
+Pokemon = TEPIG,6
+Pokemon = PONYTA,6
+#-------------------------------
+[SCHOOLGIRL,Lidia]
+LoseText = Ok you beat me.
+Pokemon = ODDISH,6
+Pokemon = LOTAD,7
+#-------------------------------
+[SCHOOLBOY,Sean]
+LoseText = No way!
+Pokemon = PACHIRISU,7
+Pokemon = TAILLOW_1,9
+#-------------------------------
+[LASS,Amy]
+LoseText = You didn't have to win you know!
+Pokemon = PIDOVE,4
+Pokemon = CUBONE,5
+#-------------------------------
+[YOUNGSTER,Ben]
+LoseText = We didn't win. But they're still cool OK!
+Pokemon = PATRAT,5
+Pokemon = EKANS,5
+#-------------------------------
+[RANCHER_MALE,Stephen]
+LoseText = Ooo my wife is gonna be mad...
+Pokemon = ROCKRUFF,7
+    Name = Scruff
+    Gender = female
+    Moves = HOWL,BITE,ACCELEROCK,LEER
+    IV = 14,14,14,14,14,14
+Pokemon = TIMBURR,8
+    Name = Chopper
+    Gender = male
+    Moves = KARATECHOP,BIDE,ROCKTHROW,GROWL
+    IV = 14,14,14,14,14,14
+#-------------------------------
+[BACKPACKER_MAN,Ford]
+LoseText = You're even too much for me!
+Pokemon = SANDSHREW,10
+#-------------------------------
+[BACKPACKER_WOMAN,Mavis]
+LoseText = Mountains make people and Pokemon tough, But you're tougher!
+Pokemon = ONIX,18
+#-------------------------------
+[HIKER,Harold]
+LoseText = Ah, I got distracted by the view.
+Pokemon = GRAVELER,30
+Pokemon = SKARMORY,26
+Pokemon = LYCANROC,27
+#-------------------------------
+[SCHOOLBOY,Ty]
+LoseText = Wait, how did you win?
+Pokemon = PATRAT,4
+Pokemon = PIDOVE,4
+#-------------------------------
+[SCHOOLGIRL,Chloe]
+LoseText = My- My Pokemon!
+Pokemon = SUNKERN,5
+Pokemon = PSYDUCK,5
+#-------------------------------
+[LASS,Kaylie]
+LoseText = Well this stinks
+Pokemon = CLEFAIRY,9
+#-------------------------------
+[BACKPACKER_WOMAN,Charlotte]
+LoseText = Wowza!
+Pokemon = ROCKRUFF,11
+#-------------------------------
+[BACKPACKER_WOMAN,Rachel]
+LoseText = Fine! Fine! you can go!
+Pokemon = DREDNAW,22
+#-------------------------------
+[RANKEDMALE_GREEN,Rogue]
+LoseText = Awe shoot, how many League points did I lose?
+WinText = Yeah! Nailed it!
+Pokemon = KAKUNA,14
+    Gender = male
+    Moves = HARDEN,POISONSTING,STRINGSHOT,BUGBITE
+    IV = 31,31,31,31,31,31
+    AbilityIndex = 0
+Pokemon = SCYTHER,15
+    Gender = female
+    Moves = AGILITY,SWORDSDANCE,FURYCUTTER,AERIALACE
+    IV = 14,14,14,14,14,14
+    Item = WIDELENS
+    AbilityIndex = 1
+#-------------------------------
+[RANKEDMALE_GREEN,Rogue,1]
+LoseText = NO, not again!
+WinText = Oh Yeah! Nailed it!
+Pokemon = BEEDRILL,23
+    Gender = male
+    Moves = SWORDSDANCE,TWINEEDLE,POISONJAB,FELLSTINGER
+    IV = 24,24,24,24,24,24
+    AbilityIndex = 1
+Pokemon = SCIZOR,25
+    Gender = female
+    Moves = AGILITY,SWORDSDANCE,FURYCUTTER,IRONHEAD
+    IV = 24,24,24,24,24,24
+    Item = WIDELENS
+    AbilityIndex = 1

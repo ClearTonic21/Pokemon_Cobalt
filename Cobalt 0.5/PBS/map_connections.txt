@@ -1,0 +1,112 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+# Route 5 (41) - Route 4 Cycling Road (40)
+41,North,0,40,South,0
+# Route 5 (41) - Route 6 Cycling Road (45)
+41,South,6,45,North,0
+# Battle Frontier (52) - Riverside_S (96)
+52,East,95,96,West,0
+# Riverside_N (81) - Riverside_S (96)
+81,South,0,96,North,21
+# Riverside_W (95) - Riverside_S (96)
+95,South,0,96,North,0
+# Odawa Village_E (86) - Riverside_S (96)
+86,East,0,96,West,1
+# Odawa Village_S (85) - Riverside_S (96)
+85,East,0,96,West,45
+# Precip Town_N (22) - Battle Frontier (52)
+22,West,40,52,East,0
+# Precip Town_S (94) - Battle Frontier (52)
+94,West,0,52,East,0
+# Riverside_W (95) - Battle Frontier (52)
+95,West,0,52,East,40
+# Northridge_N (90) - Battle Frontier (52)
+90,West,120,52,East,0
+# Northridge_W (97) - Battle Frontier (52)
+97,West,96,52,East,0
+# Central Plains_SE (91) - Battle Frontier (52)
+91,West,200,52,East,0
+# Route 7 (47) - Battle Frontier (52)
+47,East,8,52,West,0
+# Precip Town_S (94) - Precip Town_N (22)
+94,North,0,22,South,0
+# Northridge_E (48) - Precip Town_N (22)
+48,South,0,22,North,38
+# Northridge_W (97) - Precip Town_N (22)
+97,South,0,22,North,0
+# Odawa Village_E (86) - Precip Town_N (22)
+86,East,0,22,West,136
+# Odawa Village_S (85) - Precip Town_N (22)
+85,East,0,22,West,180
+# Riverside_N (81) - Precip Town_S (94)
+81,North,0,94,South,21
+# Riverside_W (95) - Precip Town_S (94)
+95,North,0,94,South,0
+# Odawa Village_E (86) - Precip Town_S (94)
+86,East,0,94,West,96
+# Odawa Village_S (85) - Precip Town_S (94)
+85,East,0,94,West,140
+# Riverside_W (95) - Riverside_N (81)
+95,East,0,81,West,0
+# Odawa Village_E (86) - Riverside_W (95)
+86,East,0,95,West,56
+# Odawa Village_S (85) - Riverside_W (95)
+85,East,0,95,West,100
+# Northridge_N (90) - Northridge_E (48)
+90,South,38,48,North,0
+# Northridge_W (97) - Northridge_E (48)
+97,East,0,48,West,0
+# Northridge_W (97) - Northridge_N (90)
+97,North,0,90,South,0
+# Central Plains_SE (91) - Northridge_N (90)
+91,South,0,90,North,0
+# Odawa Village_E (86) - Northridge_N (90)
+86,East,0,90,West,216
+# Odawa Village_S (85) - Northridge_N (90)
+85,East,0,90,West,260
+# Odawa Village_E (86) - Northridge_W (97)
+86,East,0,97,West,192
+# Odawa Village_S (85) - Northridge_W (97)
+85,East,0,97,West,236
+# Odawa Village_E (86) - Central Plains_SE (91)
+86,East,0,91,West,296
+# Odawa Village_S (85) - Central Plains_SE (91)
+85,East,0,91,West,340
+# Cedolan City (7) - Route 7 (47)
+7,East,0,47,West,0
+# Route 2 (21) - Route 7 (47)
+21,East,77,47,West,0
+# Route 1 (5) - Cedolan City (7)
+5,North,2,7,South,0
+# Route 6 (44) - Cedolan City (7)
+44,East,0,7,West,5
+# Lerucean Town (23) - Cedolan City (7)
+23,West,78,7,East,0
+# Route 2 (21) - Cedolan City (7)
+21,South,0,7,North,21
+# Lappet Town (2) - Route 1 (5)
+2,North,0,5,South,4
+# Safari Zone outside (66) - Route 1 (5)
+66,North,18,5,South,0
+# Route 6 (44) - Route 1 (5)
+44,South,43,5,North,0
+# Safari Zone outside (66) - Lappet Town (2)
+66,East,0,2,West,0
+# Route 8 (69) - Lappet Town (2)
+69,North,12,2,South,0
+# Route 8 (69) - Safari Zone outside (66)
+69,North,0,66,South,10
+# Route 2 (21) - Lerucean Town (23)
+21,East,0,23,West,1
+# Route 3 (31) - Lerucean Town (23)
+31,South,32,23,North,0
+# Ingido Plateau outside (35) - Route 3 (31)
+35,East,10,31,West,0
+# Route 4 (39) - Ingido Plateau outside (35)
+39,East,0,35,West,11
+# Odawa Village_W (84) - Odawa Village_E (86)
+84,East,0,86,West,0
+# Odawa Village_S (85) - Odawa Village_E (86)
+85,North,39,86,South,0
+# Odawa Village_S (85) - Odawa Village_W (84)
+85,North,0,84,South,0
