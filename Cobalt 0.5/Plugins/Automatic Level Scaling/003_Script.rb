@@ -18,7 +18,8 @@ class AutomaticLevelScaling
     only_scale_if_lower: LevelScalingSettings::ONLY_SCALE_IF_LOWER,
     save_trainer_parties: LevelScalingSettings::SAVE_TRAINER_PARTIES,
     use_map_level_for_wild_pokemon: LevelScalingSettings::USE_MAP_LEVEL_FOR_WILD_POKEMON,
-    update_moves: true
+    update_moves: true,
+    max_scale_level: LevelScalingSettings::MAX_SCALE_LEVEL
   }
 
   def self.difficulty=(id)
@@ -71,6 +72,7 @@ class AutomaticLevelScaling
     end
 
     level = level.clamp(1, GameData::GrowthRate.max_level)
+    level = level.clamp(1, @@settings[:max_scale_level])
 
     return level
   end
@@ -133,31 +135,33 @@ class AutomaticLevelScaling
 
     @@settings[:temporary] = true
     case setting
-    when "updateMoves"
-      @@settings[:update_moves] = value
-    when "automaticEvolutions"
-      @@settings[:automatic_evolutions] = value
-    when "includeNonNaturalEvolutions"
-      @@settings[:include_non_natural_evolutions] = value
-    when "includePreviousStages"
-      @@settings[:include_previous_stages] = value
-    when "includeNextStages"
-      @@settings[:include_next_stages] = value
-    when "proportionalScaling"
-      @@settings[:proportional_scaling] = value
-    when "firstEvolutionLevel"
-      @@settings[:first_evolution_level] = value
-    when "secondEvolutionLevel"
-      @@settings[:second_evolution_level] = value
-    when "onlyScaleIfHigher"
-      @@settings[:only_scale_if_higher] = value
-    when "onlyScaleIfLower"
-      @@settings[:only_scale_if_lower] = value
-    when "saveTrainerParties"
-      @@settings[:save_trainer_parties] = value
-    when "useMapLevelForWildPokemon"
-      @@settings[:use_map_level_for_wild_pokemon] = value
-    end
+      when "updateMoves"
+        @@settings[:update_moves] = value
+      when "automaticEvolutions"
+        @@settings[:automatic_evolutions] = value
+      when "includeNonNaturalEvolutions"
+        @@settings[:include_non_natural_evolutions] = value
+      when "includePreviousStages"
+        @@settings[:include_previous_stages] = value
+      when "includeNextStages"
+        @@settings[:include_next_stages] = value
+      when "proportionalScaling"
+        @@settings[:proportional_scaling] = value
+      when "firstEvolutionLevel"
+        @@settings[:first_evolution_level] = value
+      when "secondEvolutionLevel"
+        @@settings[:second_evolution_level] = value
+      when "onlyScaleIfHigher"
+        @@settings[:only_scale_if_higher] = value
+      when "onlyScaleIfLower"
+        @@settings[:only_scale_if_lower] = value
+      when "saveTrainerParties"
+        @@settings[:save_trainer_parties] = value
+      when "useMapLevelForWildPokemon"
+        @@settings[:use_map_level_for_wild_pokemon] = value
+      when "maxScaleLevel"
+        @@settings[:max_scale_level] = value.clamp(1, GameData::GrowthRate.max_level)
+      end
   end
 
   def self.setSettings(
@@ -173,21 +177,23 @@ class AutomaticLevelScaling
     only_scale_if_higher: LevelScalingSettings::ONLY_SCALE_IF_HIGHER,
     only_scale_if_lower: LevelScalingSettings::ONLY_SCALE_IF_LOWER,
     save_trainer_parties: LevelScalingSettings::SAVE_TRAINER_PARTIES,
-    use_map_level_for_wild_pokemon: LevelScalingSettings::USE_MAP_LEVEL_FOR_WILD_POKEMON
+    use_map_level_for_wild_pokemon: LevelScalingSettings::USE_MAP_LEVEL_FOR_WILD_POKEMON,
+    max_scale_level: LevelScalingSettings::MAX_SCALE_LEVEL
   )
-    @@settings[:temporary] = temporary
-    @@settings[:update_moves] = update_moves
-    @@settings[:first_evolution_level] = first_evolution_level
-    @@settings[:second_evolution_level] = second_evolution_level
-    @@settings[:proportional_scaling] = proportional_scaling
-    @@settings[:automatic_evolutions] = automatic_evolutions
+    @@settings[:temporary] = temporary,
+    @@settings[:update_moves] = update_moves,
+    @@settings[:first_evolution_level] = first_evolution_level,
+    @@settings[:second_evolution_level] = second_evolution_level,
+    @@settings[:proportional_scaling] = proportional_scaling,
+    @@settings[:automatic_evolutions] = automatic_evolutions,
     @@settings[:include_non_natural_evolutions] = include_non_natural_evolutions,
-    @@settings[:include_previous_stages] = include_previous_stages
-    @@settings[:include_next_stages] = include_next_stages
-    @@settings[:only_scale_if_higher] = only_scale_if_higher
-    @@settings[:only_scale_if_lower] = only_scale_if_lower
-    @@settings[:save_trainer_parties] = save_trainer_parties
-    @@settings[:use_map_level_for_wild_pokemon] = use_map_level_for_wild_pokemon
+    @@settings[:include_previous_stages] = include_previous_stages,
+    @@settings[:include_next_stages] = include_next_stages,
+    @@settings[:only_scale_if_higher] = only_scale_if_higher,
+    @@settings[:only_scale_if_lower] = only_scale_if_lower,
+    @@settings[:save_trainer_parties] = save_trainer_parties,
+    @@settings[:use_map_level_for_wild_pokemon] = use_map_level_for_wild_pokemon,
+    @@settings[:max_scale_level] = max_scale_level
   end
 
   def self.setNewLevel(pokemon, difference_from_average = 0)

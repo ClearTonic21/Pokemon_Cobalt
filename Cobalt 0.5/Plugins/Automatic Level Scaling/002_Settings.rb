@@ -28,6 +28,9 @@ module LevelScalingSettings
   # Scales levels but takes original level differences between members of the trainer party into consideration
   PROPORTIONAL_SCALING = true
 
+  # The maximum level a pokemon can be scaled to
+  MAX_SCALE_LEVEL = 62
+
   # Trainer parties will keep the same pokemon and levels of the first battle
   SAVE_TRAINER_PARTIES = true
 

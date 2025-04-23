@@ -17,7 +17,7 @@ module StarterSelSettings
   STARTERBG = 1
 
 # Form of each Starter species:
-  STARTER1FORM = 0 # First Starter
+  STARTER1FORM = 5 # First Starter
   STARTER2FORM = 0 # Second Starter
   STARTER3FORM = 0 # Third Starter
 
@@ -27,9 +27,9 @@ module StarterSelSettings
   STARTER3SHINY = 0 # Third Starter
 
 # Whether if each Starter species will have random IVs or not, 0 is random, 1 is 31 IVs for each status:
-  STARTER1IV = 0 # First Starter
-  STARTER2IV = 0 # Second Starter
-  STARTER3IV = 0 # Third Starter
+  STARTER1IV = 31 # First Starter
+  STARTER2IV = 31 # Second Starter
+  STARTER3IV = 31 # Third Starter
 # You can also edit the Script to change the values to something other than 31, lines: 79, 93 and 107
 
 # Item of each Starter species (nil is nothing):
@@ -40,7 +40,7 @@ module StarterSelSettings
   
 # Horizontal and vertical values for editing the starter position:
   STARTER1X = 0; STARTER1Y = 0 # First Starter
-  STARTER2X = 0; STARTER2Y = 0 # Second Starter
+  STARTER2X = 0; STARTER2Y = 20 # Second Starter
   STARTER3X = 0; STARTER3Y = 0 # Third Starter
 # Here, for the horizontal lines, negative numbers are left and the positive 
 # ones are right. For the vertical lines, negative numbers are up and the
@@ -48,7 +48,7 @@ module StarterSelSettings
   
 # Starter's circle size configuration. Configure how big you want the Starter
 # white circle to be:
-  STARTERCZ = 0 # 0 is normal size; 1 is double the size
+  STARTERCZ = 1 # 0 is normal size; 1 is double the size
   
 # Set true if you want the script to play the selected starter's cry when selected, 
 # or false if not:

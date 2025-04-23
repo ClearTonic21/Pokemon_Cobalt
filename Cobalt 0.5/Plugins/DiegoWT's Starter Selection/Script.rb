@@ -372,8 +372,7 @@ class DiegoWTsStarterSelection
       Graphics.update
       Input.update
       if Input.trigger?(Input::RIGHT) || Input.trigger?(Input::LEFT) ||
-        Input.trigger?(Input::ACTION) || Input.trigger?(Input::USE) ||
-        Input.trigger?(Input::BACK)
+        Input.trigger?(Input::ACTION) || Input.trigger?(Input::USE) || Input.trigger?(Input::BACK)
         @select        = 2
         @frame         = 0 
         @oldx = @sprites["ball_#{@select}"].x
@@ -454,6 +453,11 @@ class DiegoWTsStarterSelection
         @pkmn_array = pokemon
         pbPlayDecisionSE
         pbChooseBall
+      end
+      if Input.trigger?(Input::BACK)
+        pbPlayCancelSE
+        @endscene = 1
+        pbCloseScene
       end
     end
   end
@@ -553,6 +557,12 @@ class DiegoWTsStarterSelection
     when :FAIRY
       @type = "Fairy"
       typeColor = Tone.new(136.75,41.5,73.0)
+    when :STAR
+      @type = "Star"
+      typeColor = Tone.new(229.0,198.0,100.0)
+    when :SOUND
+      @type = "Sound"
+      typeColor = Tone.new(0.0,226.0,124.0)
     end
     return typeColor              if type = @pokemon.types[0]
     return type2Color = typeColor if type = @pokemon.types[1]
@@ -580,11 +590,11 @@ class DiegoWTsStarterSelection
     @pkmnname = @pokemon.name
     @sprites["textbox"].y -= 16
     if @pokemon.types[1] != @pokemon.types[0] && StarterSelSettings::TYPE2COLOR && @pokemon.types[1]
-      @sprites["textbox"].text = _INTL("<ac>Will you choose #{@pkmnname}, <br>the dual-type #{type1}/#{type2} Pokémon?</ac>")
+      @sprites["textbox"].text = _INTL("<ac>That is the rare #{@pkmnname}- Night Bloom form, <br>a #{type1} and #{type2}-type Pokémon?</ac>")
     elsif StarterSelSettings::TYPE2COLOR
       @sprites["textbox"].text = _INTL("<ac>Will you choose #{@pkmnname}, <br>the #{type1}-type Pokémon?</ac>")
     else
-      @sprites["textbox"].text = _INTL("<ac>Will you choose #{@pkmnname}, <br>the #{type1}-type Pokémon?</ac>")
+      @sprites["textbox"].text = _INTL("<ac>That is #{@pkmnname}, <br>the #{type1}-type Pokémon?</ac>")
     end
     
     # Animation before the selection
