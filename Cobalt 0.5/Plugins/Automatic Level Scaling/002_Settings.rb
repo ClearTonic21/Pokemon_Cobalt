@@ -38,7 +38,7 @@ module LevelScalingSettings
   USE_MAP_LEVEL_FOR_WILD_POKEMON = true
 
   # You can use the following to disable level scaling in any condition other then the selected below
-  ONLY_SCALE_IF_HIGHER = false   # The script will only scale levels if the player is overleveled
+  ONLY_SCALE_IF_HIGHER = true   # The script will only scale levels if the player is overleveled
   ONLY_SCALE_IF_LOWER = false    # The script will only scale levels if the player is underleveled
 
   AUTOMATIC_EVOLUTIONS = true     # Updates the evolution stage of the pokemon
