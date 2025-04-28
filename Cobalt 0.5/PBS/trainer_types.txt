@@ -459,7 +459,7 @@ Gender = Male
 SkillLevel = 100
 BaseMoney = 80
 IntroBGM = C_23 Pokéathlon_ Opening Ceremony (Remastered)
-BattleBGM = C_23 Pokémon The Origins - Trainer Battle Music (HQ)
+BattleBGM = C_23 Battle! Kanto Trainer_ Remaster  Pokémon
 #-------------------------------
 [RANKEDFEMALE_GREEN]
 Name = League Trainer
@@ -467,7 +467,7 @@ Gender = Female
 SkillLevel = 100
 BaseMoney = 80
 IntroBGM = C_23 Pokéathlon_ Opening Ceremony (Remastered)
-BattleBGM = C_23 Pokémon The Origins - Trainer Battle Music (HQ)
+BattleBGM = C_23 Battle! Kanto Trainer_ Remaster  Pokémon
 #-------------------------------
 [RANKEDMALE_BLUE]
 Name = League Trainer
@@ -475,7 +475,7 @@ Gender = Male
 SkillLevel = 100
 BaseMoney = 80
 IntroBGM = C_23 Pokéathlon_ Opening Ceremony (Remastered)
-BattleBGM = C_23 Pokémon The Origins - Trainer Battle Music (HQ)
+BattleBGM = C_23 Battle! Kanto Trainer_ Remaster  Pokémon
 #-------------------------------
 [RANKEDFEMALE_BLUE]
 Name = League Trainer
@@ -483,5 +483,5 @@ Gender = Female
 SkillLevel = 100
 BaseMoney = 80
 IntroBGM = C_23 Pokéathlon_ Opening Ceremony (Remastered)
-BattleBGM = C_23 Pokémon The Origins - Trainer Battle Music (HQ)
+BattleBGM = C_23 Battle! Kanto Trainer_ Remaster  Pokémon
 #-------------------------------
