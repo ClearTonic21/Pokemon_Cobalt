@@ -158,6 +158,18 @@ Modular_Messages::Controls.add("pt", {
   }
 })
 
+#-# {}
+# -------------------------------
+# Display rank window
+Modular_Messages::Controls.add("kw", {
+  "solo" => true,
+  "during_loop" => proc { |hash, param|
+    hash["windows_rank"]&.dispose
+    hash["windows_rank"] = pbDisplayRankWindow(hash["msg_window"])
+  }
+})
+#-# }
+
 #-------------------------------
 # Position Picture at top
 Modular_Messages::Controls.add("wu", {

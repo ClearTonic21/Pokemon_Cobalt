@@ -282,6 +282,7 @@ module VisibleEncounterSettings
     [:shiny?, true, 10],       # [:shiny, true, 8]       - means that spawned shiny pokemon will more 8 steps longer on the map than default.
     [:species, :ZUBAT, -2],   # [:species, :PIDGEY, -2] - means that pidgeys will be gone faster (2 steps earlier).
     [:species, :PIDOVE, -2],
+    [:species, :TAILLOW, -2],
     [:species, :HOOTHOOT, -2]
   ]
   # This is an array of arrays. You can add your own conditions as an additional array. It must be of the form [variable, value, number] where

@@ -18,6 +18,7 @@ module Modular_Messages
     replace_scripts # new!
     replace_player_name
     replace_player_money
+    replace_player_rank
     # \n
     @@hash["text"].gsub!(/\\n/i, "\n")
     replace_colours_direct
@@ -46,14 +47,23 @@ module Modular_Messages
   
 #-------------------------------
 # Player Name
+# \pn
   def replace_player_name
     @@hash["text"].gsub!(/\\pn/i,  $player.name) if $player
   end
   
 #-------------------------------
 # Player Money
+# \pm
   def replace_player_money
     @@hash["text"].gsub!(/\\pm/i,  _INTL("${1}", $player.money.to_s_formatted)) if $player
+  end
+
+#-------------------------------
+# Player Rank
+# \pk
+  def replace_player_rank
+    @@hash["text"].gsub!(/\\pk/i,  _INTL("{1}", $player.rank.to_s)) if $player
   end
   
 #-------------------------------

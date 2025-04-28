@@ -1,0 +1,11 @@
+AutomaticLevelScaling.setSettings(
+    temporary: true,
+    update_moves: true,
+    automatic_evolutions: true,
+    include_non_natural_evolutions: true,
+    include_next_stages: true,
+    proportional_scaling: true,
+    only_scale_if_higher: true,
+    save_trainer_parties: true,
+    max_scale_level: 34
+  )
