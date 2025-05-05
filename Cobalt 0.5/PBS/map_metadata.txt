@@ -17,7 +17,6 @@ MapPosition = 0,13,12
 #-------------------------------
 [004]   # Pokémon Lab
 Name = Pokémon Lab
-ShowArea = false
 MapPosition = 0,13,12
 #-------------------------------
 [005]   # Route 1
@@ -108,7 +107,6 @@ Name = Precip Town
 Outdoor = true
 Bicycle = true
 HealingSpot = 22,34,32
-BattleBack = 
 Environment = Grass
 #-------------------------------
 [023]   # Lerucean Town
@@ -247,8 +245,6 @@ Name = Northridge
 Outdoor = true
 Bicycle = true
 HealingSpot = 90,56,12
-DarkMap = false
-BattleBack = 
 WildBattleBGM = C_13 Battle! (Wild Pokémon Unova).ogg
 TrainerBattleBGM = C_17 Battle! Unova Trainer_Remastered.ogg
 WildVictoryBGM = C_13_ Victory! (Wild Pokémon).ogg
@@ -426,8 +422,16 @@ HealingSpot = 81,37,39
 Environment = ForestGrass
 #-------------------------------
 [084]   # Odawa Village_W
-Name = Odawa Village_W
+Name = Odawa Village
 Outdoor = true
+ShowArea = true
+Bicycle = true
+WildBattleBGM = C_13 Battle! (Wild Pokémon Unova)
+TrainerBattleBGM = C_17 Battle! Unova Trainer_Remastered
+WildVictoryBGM = C_13_ Victory! (Wild Pokémon)
+TrainerVictoryBGM = C_17_ Victory! (Trainer Battle)
+WildCaptureME = C_10_ Item Received Remaster
+Environment = Forest
 #-------------------------------
 [085]   # Odawa Village_S
 Name = Odawa Village
@@ -439,16 +443,32 @@ TrainerBattleBGM = C_17 Battle! Unova Trainer_Remastered.ogg
 WildVictoryBGM = C_13_ Victory! (Wild Pokémon).ogg
 TrainerVictoryBGM = C_17_ Victory! (Trainer Battle).ogg
 WildCaptureME = C_13_ Victory! (Wild Pokémon).ogg
+Environment = Forest
 #-------------------------------
 [086]   # Odawa Village_E
-Name = Odawa Village_E
+Name = Odawa Village
 Outdoor = true
+ShowArea = true
+Bicycle = true
+HealingSpot = 86,15,21
+WildBattleBGM = C_13 Battle! (Wild Pokémon Unova)
+TrainerBattleBGM = C_17 Battle! Unova Trainer_Remastered
+WildVictoryBGM = C_13_ Victory! (Wild Pokémon)
+TrainerVictoryBGM = C_17_ Victory! (Trainer Battle)
+WildCaptureME = C_10_ Item Received Remaster
+Environment = Forest
 #-------------------------------
 [090]   # Northridge_N
 Name = Central Grasslands
 Outdoor = true
 HealingSpot = 90,56,12
 Environment = Grass
+#-------------------------------
+[091]   # Windiland Hills
+Outdoor = true
+Bicycle = true
+HealingSpot = 90,56,12
+Environment = TallGrass
 #-------------------------------
 [094]   # Precip Town_S
 Name = Precip Town
@@ -477,3 +497,11 @@ Outdoor = true
 Bicycle = true
 HealingSpot = 90,56,12
 Environment = Rock
+#-------------------------------
+[098]   # Gym_Odawa
+Name = Odawa Village Gym
+Outdoor = true
+ShowArea = true
+HealingSpot = 98,25,32
+SnapEdges = true
+Environment = Forest

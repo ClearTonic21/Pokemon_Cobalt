@@ -67,55 +67,59 @@ module Settings
     # Define your Event Indicators
     #------------------------------------------------------------------------------------
     EVENT_INDICATORS = {
-        "quest" => {
-            :graphic => "Graphics/UI/Event Indicators/quest_available"
-        },
-        "questsimple" => {
-            :graphic => "Graphics/UI/Event Indicators/quest_available_simple"
-        },
-        "questshortnpc" => {
-            :graphic => "Graphics/UI/Event Indicators/quest_available",
-            :y_adjustment => 4
-        },
-        "question" => {
-            :graphic => "Graphics/UI/Event Indicators/event_question",
-            :always_visible => true,
+        # "quest" => {
+        #     :graphic => "Graphics/UI/Event Indicators/quest_available"
+        # },
+        # "questsimple" => {
+        #     :graphic => "Graphics/UI/Event Indicators/quest_available_simple"
+        # },
+        # "questshortnpc" => {
+        #     :graphic => "Graphics/UI/Event Indicators/quest_available",
+        #     :y_adjustment => 4
+        # },
+        # "question" => {
+        #     :graphic => "Graphics/UI/Event Indicators/event_question",
+        #     :always_visible => true,
+        #     :ignore_time_shading => true,
+        # },
+        "battle" => {
+            :graphic => "Graphics/UI/Event Indicators/battle",
             :ignore_time_shading => true,
+            :toggle_sprite => true
+        },
+        "battle_1" => {
+            :graphic => "Graphics/UI/Event Indicators/battle_1",
+            :ignore_time_shading => true,
+            :toggle_sprite => true
         },
         "battle_gold" => {
             :graphic => "Graphics/UI/Event Indicators/battle_gold",
             :ignore_time_shading => true,
-            :y_adjustment => -4,
             :toggle_sprite => true
         },
         "battle_gold_1" => {
             :graphic => "Graphics/UI/Event Indicators/battle_gold_1",
             :ignore_time_shading => true,
-            :y_adjustment => -4,
             :toggle_sprite => true
         },
         "dots" => {
             :graphic => "Graphics/UI/Event Indicators/dots",
             :ignore_time_shading => true,
-            :y_adjustment => -4,
             :toggle_sprite => true
         },
         "dots_1" => {
             :graphic => "Graphics/UI/Event Indicators/dots_1",
             :ignore_time_shading => true,
-            :y_adjustment => -4,
             :toggle_sprite => true
         },
         "dots_gold" => {
             :graphic => "Graphics/UI/Event Indicators/dots_gold",
             :ignore_time_shading => true,
-            :y_adjustment => -4,
             :toggle_sprite => true
         },
         "dots_gold_1" => {
             :graphic => "Graphics/UI/Event Indicators/dots_gold_1",
             :ignore_time_shading => true,
-            :y_adjustment => -4,
             :toggle_sprite => true
         },
     }
@@ -125,6 +129,6 @@ module Settings
     # or negative.
     #------------------------------------------------------------------------------------
     EVENT_INDICATOR_X_ADJ = 0
-    EVENT_INDICATOR_Y_ADJ = 0
+    EVENT_INDICATOR_Y_ADJ = -4
 
 end

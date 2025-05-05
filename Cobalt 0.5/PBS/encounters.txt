@@ -302,7 +302,8 @@ Land,21
     10,PIKACHU,11,14
     10,SANDSHREW_1,11,14
     10,VULPIX_1,11,14
-#-------------------------------
+#-------------------------------#-------------------------------
+#-------------------------------#-------------------------------
 [022] # Precip Town_N
 OldRod
     85,BARBOACH,4,6
@@ -317,14 +318,13 @@ Water,1
 #-------------------------------
 [081] # Riverside_E
 Land,16
-    20,PIDOVE,2,4
-    15,SENTRET,3,5
+    10,COMBEE,2,4
+    10,SENTRET,3,5
+    5,NATU,3,5
     10,PINECO,3,5
     5,POLIWAG,2,4
     5,SUNKERN,2,4
     1,CHEWTLE,4,5
-    1,POLIWAG,5,6
-    1,LOTAD,3,5
     1,CORPHISH,3,6
 Water,10
     50,BASCULIN,4,6
@@ -340,52 +340,48 @@ OldRod
     5,CORPHISH,5,6
     5,POLIWAG,5,6
 LandNight,10
-    25,HOOTHOOT,3,5
+    20,HOOTHOOT,3,5
     20,ZUBAT,2,4
     15,POLIWAG,3,5
-    15,RATTATA,3,5
-    2,ODDISH,3,4
     10,PINECO,3,5
     10,SPINARAK,4,5
+    5,ODDISH,3,4
     5,CHEWTLE,4,6
 #-------------------------------
 [048] # Northridge_E
 Land,16
-    20,KRICKETOT,2,4
-    20,PIDOVE,2,4
+    15,KRICKETOT,2,4
     10,SUNKERN,2,3
     10,TAILLOW_1,2,4
+    8,PINECO,3,5
     5,PATRAT,3,6
-    5,PINECO,3,5
-    1,CUBONE,4,6
-    1,DEERLING,4,6
-    1,EKANS,4,6
+    5,EKANS,4,6
+    1,CUBONE,5,7
+    1,STANTLER,9,12
 LandNight,10
     25,KRICKETOT,3,4
-    20,HOOTHOOT,3,5
-    20,ZUBAT,2,4
+    12,HOOTHOOT,3,5
+    10,ZUBAT,2,4
     10,SPINARAK,4,5
-    1,CUBONE,4,6
-    1,PATRAT,4,6
-    1,PINECO,3,5
+    10,PINECO,3,5
+    5,CUBONE,5,7
+    5,PATRAT,4,6
     1,PUMPKABOO,4,6
 #-------------------------------
 [090] # Grasslands_Nridge_N
 Land,16
-    15,RATTATA,3,5
-    3,NICKIT,5,7
+    10,TAILLOW_1,2,4
+    7,HOPPIP,4,8
+    5,VENONAT,5
+    5,ELECTRIKE,5,8
+    5,PIKACHU,5,8
+    3,DRILBUR,4,8
     3,NIDORANfE,4,8
     3,NIDORANmA,4,8
-    5,PIDOVE,4,7
-    5,DIGLETT,4,8
-    3,VENONAT,5
-    7,HOPPIP,4,8
-    2,ELECTRIKE,5,8
     1,PICHU,2,3
-    5,PIKACHU,5,8
     1,SCYTHER,9,16
 LandNight,10
-    5,NICKIT,5,7
+    5,STUNKY,5,7
     3,NIDORANfE,4,8
     3,NIDORANmA,4,8
     7,ZUBAT,4,7
