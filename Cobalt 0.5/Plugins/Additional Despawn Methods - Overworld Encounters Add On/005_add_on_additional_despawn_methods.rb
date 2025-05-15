@@ -11,14 +11,14 @@
 
 module VisibleEncounterSettings
   #------------(SCREEN DISTANCE DESPAWNING)-------------------
-  REMOVE_DISTANCED = false #default false
+  REMOVE_DISTANCED = true #default false
   # this is used if you want a mechanic that removes PokeEvents when
   # distancing from them
   #false - means nothing happens
   #true - means distanced PokeEvent will disappear
   # (regardless of this parameter PokeEvents will despawn when being
   # completely in another map)
-  DISTANCE_VANISH = 30 # default 12
+  DISTANCE_VANISH = 40 # default 12
   #      DISTANCE_VANISH is the max distance on screen a wild Encounter can be
   #      from the player before vanishing on the map.
   #<=0  - means infinite distance (wont disappear from distance)
