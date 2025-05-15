@@ -243,6 +243,7 @@ Environment = Rock
 [048]   # Northridge_E
 Name = Northridge
 Outdoor = true
+ShowArea = true
 Bicycle = true
 HealingSpot = 90,56,12
 WildBattleBGM = C_13 Battle! (Wild Pokémon Unova).ogg
@@ -459,12 +460,15 @@ WildCaptureME = C_10_ Item Received Remaster
 Environment = Forest
 #-------------------------------
 [090]   # Northridge_N
-Name = Central Grasslands
+Name = Windiland Hills
 Outdoor = true
+ShowArea = true
+Bicycle = true
 HealingSpot = 90,56,12
 Environment = Grass
 #-------------------------------
 [091]   # Windiland Hills
+Name = Windiland Hills
 Outdoor = true
 Bicycle = true
 HealingSpot = 90,56,12
@@ -494,6 +498,7 @@ Environment = ForestGrass
 [097]   # Northridge_W
 Name = Northridge
 Outdoor = true
+ShowArea = true
 Bicycle = true
 HealingSpot = 90,56,12
 Environment = Rock
@@ -504,4 +509,32 @@ Outdoor = true
 ShowArea = true
 HealingSpot = 98,25,32
 SnapEdges = true
+Environment = Forest
+#-------------------------------
+[104]   # Nav Woods_0_S
+Name = Nav Woods
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Environment = Forest
+#-------------------------------
+[111]   # Nav Woods_0_W
+Name = Nav Woods
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Environment = Forest
+#-------------------------------
+[114]   # Nav Woods_1_N
+Name = Nav Woods
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Environment = Forest
+#-------------------------------
+[116]   # Nav Woods_0_E
+Name = Nav Woods
+Outdoor = true
+ShowArea = true
+Bicycle = true
 Environment = Forest

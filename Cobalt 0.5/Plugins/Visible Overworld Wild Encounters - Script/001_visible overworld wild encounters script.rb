@@ -253,6 +253,8 @@ module VisibleEncounterSettings
     [:species, :SLOWPOKE, 1, 2, nil], # [:species, :SLOWPOKE, 1, 1, nil] means that slowpoke is very slow. It might still want to run random or to the player.
     [:species, :SUNKERN, 1, 2, nil],
     [:species, :PINECO, 1, 2, nil],
+    [:species, :BURMY, 1, 2, nil],
+    [:species, :SHROOMISH, 2, 2, nil],
     [:species, :POLIWAG, 2, 3, nil],
     [:species, :CHEWTLE, 2, 3, nil],
     [:species, :CORPHISH, 2, 3, nil],
