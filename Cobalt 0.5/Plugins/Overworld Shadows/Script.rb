@@ -27,7 +27,8 @@ class Sprite_Character < RPG::Sprite
       "Stairs",
       "Fireplace",
       "HiddenItem",
-      "Window"
+      "Window",
+      "Kakuna",
     ].freeze
 
     #  List of event name inclusions that will always render a shadow

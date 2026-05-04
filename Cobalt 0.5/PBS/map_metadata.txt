@@ -516,6 +516,7 @@ Name = Nav Woods
 Outdoor = true
 ShowArea = true
 Bicycle = true
+DarkMap = true
 Environment = Forest
 #-------------------------------
 [111]   # Nav Woods_0_W
@@ -530,6 +531,7 @@ Name = Nav Woods
 Outdoor = true
 ShowArea = true
 Bicycle = true
+DarkMap = true
 Environment = Forest
 #-------------------------------
 [116]   # Nav Woods_0_E

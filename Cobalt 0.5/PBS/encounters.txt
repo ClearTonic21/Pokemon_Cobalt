@@ -699,10 +699,28 @@ Land,16
     5,BURMY,5,9
 #-------------------------------
 [086] # ODAWA_VILLAGE_E
-Land,16
+Land,4
+    10,NATU,7,11
+    10,WEEDLE,6,8
+    10,SHROOMISH,7,11
+    10,SEEDOT,7,11
+    10,PETILIL,8,12
+    5,BURMY,5,9
 #-------------------------------
 [084] # ODAWA_VILLAGE_W
-Land,16
+Land,4
+    10,NATU,7,11
+    10,WEEDLE,6,8
+    10,SHROOMISH,7,11
+    10,SEEDOT,7,11
+    10,PETILIL,8,12
+    5,BURMY,5,9
 #-------------------------------
 [085] # ODAWA_VILLAGE_S
-Land,16
+Land,10
+    10,NATU,7,11
+    10,WEEDLE,6,8
+    10,SHROOMISH,7,11
+    10,SEEDOT,7,11
+    10,PETILIL,8,12
+    5,BURMY,5,9
